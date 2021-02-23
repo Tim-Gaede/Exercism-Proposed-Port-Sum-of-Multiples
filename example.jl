@@ -1,4 +1,4 @@
-function sum_of_multiples(limit::Int, multiples::Array{Any,1})
+function sum_of_multiples(limit::Int, multiples::Array{Int,1})
 # For every number up to the limit, see if it is a
 # multiple of at least one of the array numbers.
 # There is no need to see if the number under the limit
